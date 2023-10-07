@@ -1,5 +1,5 @@
 # 4NEC2 Tutorial: Simulation of Half Wave Dipole Antenna 
-4nec2 is a software tool primarily used for the design and analysis of antennas and other electromagnetic systems.
+4NEC2 is a software tool primarily used for the design and analysis of antennas and other electromagnetic systems.
 
 ## Steps to Download 
 1. Go to the official 4NEC2 website. ( http://www.qsl.net/4nec2/ ) 
@@ -13,59 +13,76 @@
 Steps to use 4NEC2 software to simulate half wave dipole antenna at 2.4GHz:
 
 Step 1 : Launch the 4NEC2 software.
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/0d18751a-e5fa-4a83-8f97-a079a61881eb/Untitled.png)
+<!---
+![Untitled](https://github.com/parthk1165/TicTacToe/assets/145101202/427d0dd8-b0ba-43a4-bd5b-a85a85a2e66a)
+-->
+<img src="https://github.com/parthk1165/TicTacToe/assets/145101202/427d0dd8-b0ba-43a4-bd5b-a85a85a2e66a" width="392" height="625.6" />
 
 Step 2 : Create a new project: In the toolbar menu, select "File" and choose "New" to create a new project
 
 Step 3 : In Setting , Click on geometry edit  
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/9b628bc7-c64a-4981-a368-1cff4488cc95/Untitled.png)
+<!--
+![Untitled 1](https://github.com/parthk1165/TicTacToe/assets/145101202/f1ffc9c9-2626-4352-ad40-b00232f8a8a2)
+-->
+<img src="https://github.com/parthk1165/TicTacToe/assets/145101202/f1ffc9c9-2626-4352-ad40-b00232f8a8a2" width="392  " height="625.6" />
 
 Step 4 : Click on Edit NEC - input filed , a new window pops up 
+<!--
+![Untitled 2](https://github.com/parthk1165/4NEC2/assets/145101202/6f78a3cb-705d-459d-be47-917289acef1f)
+-->
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/edf84b54-e6d5-4a1f-9f3b-1feaf39982d9/Untitled.png)
+<img src="https://github.com/parthk1165/4NEC2/assets/145101202/6f78a3cb-705d-459d-be47-917289acef1f" width="392  " height="625.6" />
 
 Step 5 : Create a new project 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/118ee27e-0912-4ac6-87fd-9fe18224acb5/Untitled.png)
+![Untitled 3](https://github.com/parthk1165/4NEC2/assets/145101202/4a234312-29a4-4828-9847-51c2d7b39090)
+
+
 
 Step 6 : Set the frequency of the simulation to 2.4GHz
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/0c530d41-90a0-41ab-a340-7001371f0d6a/Untitled.png)
+![Untitled 4](https://github.com/parthk1165/4NEC2/assets/145101202/c340beeb-6ce8-4cf2-9ed4-c9519e5e9524)
 
 Step 7 : Click on Wire geometry to create a wire 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/8ab3f1f5-dafb-4c46-aaf1-9d5bdf891352/Untitled.png)
+![Untitled 5](https://github.com/parthk1165/4NEC2/assets/145101202/01d7ccfa-18eb-4602-a7f9-6ff46dd62173)
+
 
 Step 8 : Select the "Add New objects " option from the toolbar and add the wire on the z-axis.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/24e99106-1ff3-4dd6-b298-e0fc4ba94bf5/Untitled.png)
+![Untitled 6](https://github.com/parthk1165/4NEC2/assets/145101202/e8439f68-9b43-4237-88d1-b48586fb31ff)
 
 Step 9 : Set wire radius to be 0.5 mm 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/ea7855ed-44d0-4e2c-b147-c4587ea97673/Untitled.png)
+![Untitled 7](https://github.com/parthk1165/4NEC2/assets/145101202/e73e995a-448a-40a3-9a50-8d615c569c2d)
+
 
 Step 10 : Set the parameters of the wire 
 1. Set the z parameter of the End-1 (mtr) to 0.031225 and -0.031225 
 ( Specifying the start and end points of the dipole, which should be half a wavelength apart )
-2. Set the seg to 100 
+2. Set the seg to 100
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/60e93908-5e6d-4844-8cd7-2a9f08b291e9/Untitled.png)
+![Untitled 8](https://github.com/parthk1165/4NEC2/assets/145101202/e7ad5dfb-4c51-4cd6-89b7-ff9f75eb5bf5)
+
+
 
 Step 11 : Add V/I source similar to wire and place it on the origin
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/582ec017-2973-4b63-8cc3-108af27e32ad/Untitled.png)
+![Untitled 9](https://github.com/parthk1165/4NEC2/assets/145101202/dca649ce-9309-4c51-a026-084133d2b071)
+![Untitled 10](https://github.com/parthk1165/4NEC2/assets/145101202/3f97f253-a3f4-438a-a176-02991e1c1590)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/3c6753a9-aa4e-4e37-ad85-2b3bd0e593a9/Untitled.png)
 
 Step 12 : Click on Run NEC and wait for the results to be calculated.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/5780c2a9-3319-46d8-8f66-f61d5cebb3d2/Untitled.png)
+![Untitled 11](https://github.com/parthk1165/4NEC2/assets/145101202/d71ec013-f8a9-4e7a-8cb9-a659fa4e9568)
+
 
 Step 13 : Click on Frequency sweep and Configure the simulation settings, such as start , stop and step 
+<!--
+![Untitled 12](https://github.com/parthk1165/4NEC2/assets/145101202/661f2a12-4c75-4978-9402-dba27cadf268)
+-->
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/287bc0b0-2e9d-4b96-b4aa-e003a8376f1c/Untitled.png)
+<img src="https://github.com/parthk1165/4NEC2/assets/145101202/661f2a12-4c75-4978-9402-dba27cadf268" width="333.6" height="542.4" />
 
 Step 14 : Run the simulation and wait for the results to be calculated.
 
@@ -73,25 +90,40 @@ Step 15 : The software provides various graphs, charts, and numerical data,
               including radiation pattern plots, gain, input impedance, and SWR.
               Analyze the simulation results, which include Bandwidth , HPBW 
 
-![Bandwidth](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/4b7cd824-6580-415e-96de-01b6cb08e449/Untitled.png)
+![Untitled 13](https://github.com/parthk1165/4NEC2/assets/145101202/af2d3465-68b5-44a3-8a8b-af94162814ea)
+
 
 Bandwidth
 
-![HPBW](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/61014746-e767-49a0-9a03-762733a20304/Untitled.png)
+<!--
+![Untitled 14](https://github.com/parthk1165/4NEC2/assets/145101202/88137155-7e98-408c-a4e1-db5018e1b12c)
+-->
+<img src="https://github.com/parthk1165/4NEC2/assets/145101202/88137155-7e98-408c-a4e1-db5018e1b12c" width="296" height="334.5" />
+
 
 HPBW
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/9bcc9ce6-fc55-4744-888f-f1f8e69a494a/Untitled.png)
+<!--
+![Untitled 15](https://github.com/parthk1165/4NEC2/assets/145101202/b576e54e-a43f-46ff-95fe-3f77376fc19a)
+-->
+<img src="https://github.com/parthk1165/4NEC2/assets/145101202/b576e54e-a43f-46ff-95fe-3f77376fc19a" width="392" height="625.6" />
+
+
 
 Step 16 : To view the antenna in 3D , click on the “3D” button
+<!--
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/0986c4b0-aa7a-4c68-b157-58318b2be6d8/Untitled.png)
+![Untitled 16](https://github.com/parthk1165/4NEC2/assets/145101202/e7196691-0a72-4566-8526-b64139c89492)
+-->
+
+<img src="https://github.com/parthk1165/4NEC2/assets/145101202/e7196691-0a72-4566-8526-b64139c89492" width="392" height="625.6" />
 
 Step 17 : To see the impedance, click on "Multi-color”
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/39386747-73ba-4281-9233-22406a7a7691/Untitled.png)
+![Untitled 17](https://github.com/parthk1165/4NEC2/assets/145101202/919bcf79-b38c-4edd-96d3-52f0a48d566e)
+![Untitled 18](https://github.com/parthk1165/4NEC2/assets/145101202/a55444ad-6a88-4a5c-abae-86938c0ceef7)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6b0ba1f8-4dff-4058-9868-5f61e9681358/84d33da4-2c17-4ed8-ab08-1881776d6072/Untitled.png)
+
 
 Step 18 : Repeat the simulation and analysis steps until satisfactory results are obtained.
 
